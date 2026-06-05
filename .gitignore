@@ -1,0 +1,98 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ============================================================
+# Distribution / Packaging
+# ============================================================
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ============================================================
+# SQLite Databases  <-- CRITICAL: never commit user scan data
+# ============================================================
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+
+# ============================================================
+# Environment Variables & Secrets  <-- CRITICAL: API keys
+# ============================================================
+.env
+.env.local
+.env.*.local
+secrets.py
+config_local.py
+
+# ============================================================
+# Nmap Output Files
+# ============================================================
+*.xml
+*.nmap
+*.gnmap
+scan_results/
+
+# ============================================================
+# IDE & Editor
+# ============================================================
+.idea/
+.claude/
+pyrightconfig.json
+*.swp
+*.swo
+*~
+
+# ============================================================
+# OS
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+logs/
+
+# ============================================================
+# Pytest / Coverage / Tests
+# ============================================================
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+test_results*.txt
+TEST_RESULTS_DETAILED.md
+APPENDIX_*.md
+BUILDING.md
+BUILD_AND_PACKAGE.ps1
+IMPLEMENTATION_COMPLETE.txt
+INSTALLER_GUIDE.md
+PACKAGING_SUMMARY.md
+PREREQUISITES_INSTALLER_GUIDE.md
+QUICKSTART*.md
+TESTING.md
+build.ps1
+build_config.py
+installer.iss
+iot_shield.spec
+prerequisites_installer.iss

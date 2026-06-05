@@ -1,0 +1,6 @@
+customtkinter>=5.2.0
+scapy>=2.5.0
+python-nmap>=0.0.1
+requests>=2.31.0
+networkx>=3.2
+matplotlib>=3.8.0

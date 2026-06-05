@@ -1,0 +1,29 @@
+# COMMIT MESSAGE TEMPLATE
+# ─────────────────────────────────────────────────────────────
+# FORMAT:  <BacklogID>: <Short imperative summary> (50 chars max)
+#
+# BACKLOG ID PREFIXES
+#   S1-xx  Sprint 1 tasks
+#   S2-xx  Sprint 2 tasks
+#   TP-xx  Testing Phase tasks (TP-01 to TP-08)
+#   FIX    Bug fixes not tied to a specific backlog item
+#   DOC    Documentation-only changes
+#   CHORE  Build, CI, dependency, or config changes
+#
+# EXAMPLES
+#   S2-01: Add NVD REST API lookup module
+#   TP-03: Validate risk scoring against CVSS baseline
+#   FIX: Correct Nmap timeout handling on unreachable hosts
+#   DOC: Update README pipeline diagram
+#
+# ─────────────────────────────────────────────────────────────
+# WHY (optional body — wrap at 72 chars, leave blank line above)
+#
+# Describe the motivation, not the mechanics.  What problem
+# was being solved?  What constraint drove this approach?
+#
+# ─────────────────────────────────────────────────────────────
+# REFERENCES (optional — Sprint board, issue tracker)
+#
+# Ref: TP-03, Sprint 2 Backlog row 7
+# ─────────────────────────────────────────────────────────────
